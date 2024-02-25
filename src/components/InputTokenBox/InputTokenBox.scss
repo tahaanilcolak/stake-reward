@@ -1,0 +1,148 @@
+.input-token-box{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+  .input-token-box:focus , .input-token-box:focus-visible{
+    outline: none;
+  }
+
+  .input-label-text{
+    color: rgb(125, 125, 125);
+    font-weight: 485;
+    font-size: 13px;
+    top: 5px;
+    left: 7px;
+  }
+
+  .select-token-container {
+    position: absolute;
+    right: 5px;
+  }
+
+  
+
+  .input-label-balance{
+    color: rgb(125, 125, 125);
+    font-weight: 485;
+    font-size: 13px;
+    bottom: 5px;
+    right: 7px;
+    position: absolute;
+  }
+
+  .input-token-price{
+    color: rgb(125, 125, 125);
+    font-weight: 485;
+    font-size: 15px;
+    bottom: 5px;
+    left: 7px;
+    position: absolute;
+  }
+
+  .balance-max-btn{
+    cursor: pointer;
+    color: darkred;
+    font-weight: 500;
+  }
+
+  .input-token-symbol{
+    font-size: 18px;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .arrow-icon-container{
+    position: relative;
+    bottom: 2px;
+   margin-top: 4px;
+  }
+
+  .arrow-icon{
+    font-size: 20px !important;
+  }
+
+  .copy-icon-container{
+    position: relative;
+    bottom: 4px;
+   padding-left: 3px;
+  }
+
+  .copy-icon{
+    font-size: 16px !important;
+    cursor: pointer;
+  }
+
+  .metamask-icon{
+    width: 17px !important;
+    cursor: pointer;
+    margin-left: 5px !important;
+    margin-right: 3px !important ;
+  }
+
+  .metamask-icon:hover{
+    opacity: 0.8;
+  }
+
+  .copy-icon:hover{
+    opacity: 0.8;
+  }
+
+  .swap-input{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+
+  .swap-container-tac{
+    display: flex;
+    flex-flow: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+
+  .input-tac{
+    width: 0px;
+    position: relative;
+    font-size: 30px;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+    appearance: textfield;
+  }
+
+  .symbol-tac{
+    border: 0px;
+    border-radius: 10px;
+    display: inline-flex;
+    font-family: inherit;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 1;
+    opacity: 1;
+    margin-right: 4px;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    box-shadow: none;
+  }

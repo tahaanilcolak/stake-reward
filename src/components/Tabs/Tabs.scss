@@ -1,0 +1,60 @@
+.tab-btn {
+    background-color: red;
+}
+.footer{
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+        position: relative !important;
+        display: block !important;
+        margin-top: 50px;
+}
+.developer-container{
+    padding-top: 15px;
+    justify-content: center;
+    color: #7d7d7d;
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+}
+
+.dapprex-link{
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.dapprex-icon{
+    margin-top: 1px;
+    height: 18px !important;
+    cursor: pointer;
+  }
+
+  .dapprex-icon:hover{
+    opacity: 0.8;
+  }
+
+  @media (max-width: 600px) {
+    .footer{
+        font-size: 15px;
+    }
+  }
+  .test{
+  min-height :  -webkit-fill-available !important
+
+  }
+/* 
+  @media (max-height: 650px) {
+    .footer{
+        text-align: center;
+        position: relative;
+        display: block;
+    }
+  } */

@@ -1,0 +1,59 @@
+*{
+  font-family: 'Kanit', sans-serif !important;
+}
+
+body{
+  background-color: rgb(250, 249, 250) !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600 !important ;
+}
+
+.display-none {
+  display: none;
+}
+
+
+.custom-disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.close-modal-btn{
+  position: absolute !important;
+  cursor: pointer;
+  right: 15px;
+  top: 15px;
+}
+.close-modal-btn:hover{
+  opacity: 0.8;
+}
+
+.mui-modal-container {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid rgba(34, 34, 34, 0.07);
+  box-shadow: rgba(51, 53, 72, 0.04) 8px 12px 20px, rgba(51, 53, 72, 0.02) 4px 6px 12px, rgba(51, 53, 72, 0.04) 4px 4px 8px;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.modal-header{
+  position: absolute;
+  top: 10px;
+}
+
+.mui-modal-container:focus-visible {
+  outline: none;
+}
+
+.statistics-usdt-price{
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 5px;
+}
